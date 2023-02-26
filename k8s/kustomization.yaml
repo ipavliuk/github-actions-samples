@@ -8,4 +8,4 @@ namespace: hello-gitops
 images:
 - name: hello-gitops
   newName: ipavlyuk/hello-gitops
-  newTag: 66430e101949c340725a99f5fefa26f554fc2806
+  newTag: 4c4f5e7c117186c2bfb7435a37cc91486e753153
