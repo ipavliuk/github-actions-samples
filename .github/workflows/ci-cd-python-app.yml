@@ -168,6 +168,6 @@ jobs:
         git commit -am "Bump docker tag"
         
     - name: Push changes
-      run: git push origin HEAD:main
+      run: git push --force origin HEAD:main
       env:
         github_token: ${{ secrets.GITHUB_TOKEN }}
