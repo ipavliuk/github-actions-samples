@@ -2,6 +2,8 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: hello-gitops
+  annotations:
+    kubernetes.io/ingress.global-static-ip-name: 34.149.162.102
 spec:
   rules:
     - http:
